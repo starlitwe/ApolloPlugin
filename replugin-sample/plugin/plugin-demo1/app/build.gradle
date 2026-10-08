@@ -27,12 +27,12 @@ plugins {
 android {
 
     namespace 'com.qihoo360.replugin.sample.demo1'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         versionName "1.1"
         versionCode 104
-        targetSdkVersion 33
+        targetSdkVersion 34
         applicationId "com.qihoo360.replugin.sample.demo1"
         minSdkVersion 15
         multiDexEnabled false
