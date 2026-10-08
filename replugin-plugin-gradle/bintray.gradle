@@ -20,9 +20,9 @@ apply plugin: 'com.jfrog.bintray'
 apply plugin: 'maven-publish'
 
 
-def baseUrl = 'https://github.com/Qihoo360/RePlugin'
+def baseUrl = 'https://github.com/starlitwe/ApolloPlugin'
 def siteUrl = baseUrl
-def gitUrl = "${baseUrl}/RePlugin"
+def gitUrl = "${baseUrl}/ApolloPlugin"
 def issueUrl = "${gitUrl}/issues"
 
 
@@ -47,8 +47,8 @@ install {
                 //添加开发者信息
                 developers {
                     developer {
-                        name 'replugin'
-                        email 'replugin@gmail.com'
+                        name 'apolloplugin'
+                        email 'apolloplugin@gmail.com'
                     }
                 }
 
@@ -74,7 +74,7 @@ bintray {
         repo = '' // 上传到中央仓库的名称
         name = '' // 上传到jcenter 的项目名称
         userOrg = ''
-        desc = 'RePlugin - A flexible, stable, easy-to-use Android Plug-in Framework' // 项目描述
+        desc = 'ApolloPlugin - Making Plugin Development Simpler' // 项目描述
         websiteUrl = siteUrl
         issueTrackerUrl = issueUrl
         vcsUrl = gitUrl
